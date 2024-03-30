@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="shortcut icon" href="assets/media/favicon/dd-icons.png" type="image/x-icon">
     <script src="assets/js/main.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/js/jquery.maskedinput.min.js"></script>
+    <script src="assets/js/maskphone.js"></script>
     <meta name="description" content="Наше творческое объединение специализируется на продвижении малого, среднего и крупного 
     бизнесов, посредством брендинга, создания фирменного стиля, разработки сайтов, анимаций и рекламы различной сложности. ">
     <meta name="keywords" content="дабл дьюдс / дабл дадс / дабля дудс / дабля дадс / double dudes / double / double dudes digital / marketing / branding / motion / веб разработка / веб-разработка / заказать сайт / веб-студия / заказать брендинг / заказать логотип / сайты / сайт">
@@ -741,12 +744,37 @@
                       <button class="itc-slider-btn itc-slider-btn-prev"></button>
                       <button class="itc-slider-btn itc-slider-btn-next"></button>
                     </div>
-                  
                 </div>
-
-                
             </div>
-                
+        </div>
+
+        <div class="form-for-project flex center">
+            <div class="container row sp-btw">
+                <div class="container">
+                    <div class="title_desc">
+                        <span class="left-big-title">Хотите обсудить <br>проект?</span>
+                        <p class="desc_left-big-title">Заполните форму для быстрой обратной связи</p>
+                    </div>
+                    <div class="call-to-action">
+                        <span>НЕ ТОРМОЗИ, <br></span><p>форму обратной связи <br>скорее заполни 😉</p>
+                    </div>
+                </div>
+                <div class="container col">
+                    <h2>О проекте</h2>
+                    <script type="text/javascript">jQuery(function($){$("#phon").mask("+7 (999) 999-99-99");});</script>
+                    <form action="" method="post" class="col">
+                        <input type="text" name="" id="" placeholder="Имя">
+                            <!-- <label for="name">Ваш Телефон</label> -->
+                            <input type="text" id="phon" class="phon" placeholder="Номер телефона">
+                            <input type="email" placeholder="Эл почта">
+                            <textarea name="" id="" placeholder="Описание проекта"></textarea>
+                            <div class="btn col">
+                                <input type="button" value="📎 Прикрепить файл ">
+                                <input type="submit" class="button go-project" value="Обсудить Проект">
+                            </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 

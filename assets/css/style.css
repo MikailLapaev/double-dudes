@@ -745,7 +745,119 @@ span.num-right{
 
 
 
+/* Форма обратной связи */
+.title_desc{
+    margin-bottom: 96px;
+}
 
+span.left-big-title{
+    font-family: 'ns-bold';
+    font-size: 78px;
+    background: linear-gradient(-30deg, #10BBC5, #23A7D8, #7A58FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 81px;
+}
+
+p.desc_left-big-title{
+    font-family: 'ns-reg';
+    font-size: 29px;
+    color: #fff;
+    opacity: 70%;
+    margin-top: 26px;
+}
+
+.call-to-action{
+    max-width: 508px;
+    padding: 34px;
+    border-radius: 28.73px;
+    background-color: #313131;
+}
+
+.call-to-action span{
+    font-family: 'ns-bold';
+    font-size: 43.09px;
+    line-height: 46.7px;
+    color: #fff;
+}
+
+.call-to-action p{
+    font-family: 'ns-sembd';
+    font-size: 35.91px;
+    line-height: 46.7px;
+    color: #989898;
+}
+
+.form-for-project form input{
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    color: #fff;
+    padding: 20px 0px;
+    outline: none;
+    background: transparent;
+}
+
+.form-for-project form input:focus{
+    border-bottom: 1px solid #10BBC5;
+    color: #10BBC5;
+}
+
+.form-for-project form textarea{
+    border: none;
+    border-bottom: 1px solid #8E8E8E;
+    color: #fff;
+    padding: 20px 0px;
+    width: 650px;
+    height: 250px;
+    outline: none;
+    background: transparent;
+    resize: none;
+}
+
+.form-for-project form textarea::-webkit-scrollbar{
+    width: 20px;
+    height: 7px;
+    margin-bottom: 30px;
+    background-color: #10BBC5;
+}
+
+.form-for-project form textarea::-webkit-scrollbar-thumb{
+    width: 20px;
+    height: 7px;
+    background-color: #e9e9e9;
+    cursor: context-menu;
+}
+
+
+.form-for-project form textarea:focus{
+    border-bottom: 1px solid #10BBC5;
+    color: #10BBC5;
+}
+
+.form-for-project form{
+    gap: 30px;
+}
+
+.form-for-project .btn{
+    display: flex;
+    gap: 30px;
+}
+
+.form-for-project .btn input{
+    border: 2px solid #10BBC5;
+    cursor: pointer;
+    border-radius: 38px;
+    padding: 20px 0;
+}
+
+.form-for-project .btn .go-project{
+    background: linear-gradient(90deg, #10BBC5, #23A7D8, #7A58FF);
+    cursor: pointer;
+    border-radius: 38px;
+    padding: 20px 0;
+}
+
+/* Конец форма обратной связи */
 
 
 
